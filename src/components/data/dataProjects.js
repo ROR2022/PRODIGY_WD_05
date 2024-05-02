@@ -79,28 +79,28 @@ export const dataCertifications = [
         title: 'AWS Practitioner',
         shortDescription: 'AWS Cloud Practitioner Essentials',
         description: 'This certification validates the knowledge and skills required to effectively demonstrate an overall understanding of the AWS Cloud, independent of specific technical roles addressed by other AWS Certifications. ',
-        imageURL:'/public/rorAWS.jpg',
+        imageURL:'./rorAWS.jpg',
     },
     {
         id: 'rorEnglish',
         title: 'EF SET English',
         shortDescription: 'English as a second language',
         description: 'This certification validates the knowledge and skills required to effectively communicate in English, both in written and spoken form. ',
-        imageURL:'/public/rorEnglish.png',
+        imageURL:'./rorEnglish.png',
     },
     {
         id:'rorFullStack',
         title: 'Full Stack JS',
         shortDescription: 'Full Stack JavaScript Developer',
         description: 'This certification validates the knowledge and skills required to effectively develop web applications using JavaScript, both on the client and server side. ',
-        imageURL:'/public/rorFullStackJS.png',
+        imageURL:'./rorFullStackJS.png',
     },
     {
         id:'rorScrum',
         title: 'Scrum Study',
         shortDescription: 'Scrum Fundamentals Certified',
         description: 'This certification validates the knowledge and skills required to effectively apply Scrum principles and practices in a team environment.',
-        imageURL:'/public/rorScrum.jpg',
+        imageURL:'./rorScrum.jpg',
     }
 ]
 
