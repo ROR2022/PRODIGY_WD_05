@@ -80,28 +80,28 @@ export const dataCertifications = [
         title: 'AWS Practitioner',
         shortDescription: 'AWS Cloud Practitioner Essentials',
         description: 'This certification validates the knowledge and skills required to effectively demonstrate an overall understanding of the AWS Cloud, independent of specific technical roles addressed by other AWS Certifications. ',
-        imageURL:'https://prodigy-wd-05-e8rxmdoec-ror2022s-projects.vercel.app/rorAWS.jpg',
+        imageURL:'https://prodigy-wd-05-git-main-ror2022s-projects.vercel.app/rorAWS.jpg',
     },
     {
         id: 'rorEnglish',
         title: 'EF SET English',
         shortDescription: 'English as a second language',
         description: 'This certification validates the knowledge and skills required to effectively communicate in English, both in written and spoken form. ',
-        imageURL:'https://prodigy-wd-05-e8rxmdoec-ror2022s-projects.vercel.app/rorEnglish.png',
+        imageURL:'https://prodigy-wd-05-git-main-ror2022s-projects.vercel.app/rorEnglish.png',
     },
     {
         id:'rorFullStack',
         title: 'Full Stack JS',
         shortDescription: 'Full Stack JavaScript Developer',
         description: 'This certification validates the knowledge and skills required to effectively develop web applications using JavaScript, both on the client and server side. ',
-        imageURL:'https://prodigy-wd-05-e8rxmdoec-ror2022s-projects.vercel.app/rorFullStackJS.png',
+        imageURL:'https://prodigy-wd-05-git-main-ror2022s-projects.vercel.app/rorFullStackJS.png',
     },
     {
         id:'rorScrum',
         title: 'Scrum Study',
         shortDescription: 'Scrum Fundamentals Certified',
         description: 'This certification validates the knowledge and skills required to effectively apply Scrum principles and practices in a team environment.',
-        imageURL:'https://prodigy-wd-05-e8rxmdoec-ror2022s-projects.vercel.app/rorScrum.jpg',
+        imageURL:'https://prodigy-wd-05-git-main-ror2022s-projects.vercel.app/rorScrum.jpg',
     }
 ]
 
