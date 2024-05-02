@@ -2,7 +2,7 @@ Internship Prodigy Infotech
 https://prodigyinfotech.dev/
 #ProdigyInfotech
 
-Interactive Navigation Menu
+Weather App
 
 Web Developer Internship
 
