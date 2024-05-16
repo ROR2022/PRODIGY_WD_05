@@ -12,6 +12,10 @@ const ProjectCard = ({project, isCert}) => {
     const handleModal = () => {
         setShowModal(true);
     }
+    const handleShowCert = () => {
+        //Abrir nueva ventana con certificado
+        window.open(imageURL, '_blank');
+    }
   return (
     <Card style={{ width: isCert?'36rem':'18rem' }} className='bg-warning bg-opacity-10'>
         {showModal && <ModalCard project={project} showModal={showModal} setShowModal={setShowModal} isCert={isCert}/>}
@@ -30,6 +34,10 @@ const ProjectCard = ({project, isCert}) => {
         
         {!isCert &&
           <Link className='btn btn-outline-success' to={url}>GO THERE</Link>
+        }
+        {
+          isCert &&
+          <button className='btn btn-outline-success' onClick={handleShowCert}>VIEW CERTIFICATE</button>
         }
         
       </Card.Body>
