@@ -76,6 +76,13 @@ export const dataProjects = [
 //https://prodigy-wd-05-e8rxmdoec-ror2022s-projects.vercel.app/rorAWS.jpg
 export const dataCertifications = [
     {
+        id: 'rorProdigy',
+        title: 'Prodigy',
+        shortDescription: 'Web Development',
+        description: 'This certification validates the knowledge and skills required to effectively develop web applications using HTML, CSS, and JavaScript. ',
+        imageURL:'https://prodigy-wd-05-git-main-ror2022s-projects.vercel.app/rorProdigy.jpeg',
+    },
+    {
         id: 'rorAWS',
         title: 'AWS Practitioner',
         shortDescription: 'AWS Cloud Practitioner Essentials',
