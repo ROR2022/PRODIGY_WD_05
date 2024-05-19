@@ -12,7 +12,7 @@ export const dataProjects = [
         id:'jobinderAppROR',
         title: 'Jobinder',
         shortDescription: 'Job search app with React',
-        description: 'This web application is designed to help users find job opportunities based on their preferences. It is built with React.js, and is deployed on GitHub Pages. The application is designed to be responsive and user-friendly, providing a seamless experience for job seekers. ',
+        description: 'This web application is designed to help users find job opportunities based on their preferences. It is built with React.js, and is deployed on AWS EC2 using S3 bucket for Images. The application is designed to be responsive and user-friendly, providing a seamless experience for job seekers. ',
         url: 'http://18.222.55.217',
         imageURL:'https://prodigy-wd-05-git-main-ror2022s-projects.vercel.app/logoJOB.png',
         codeLink: 'https://github.com/ROR2022/jobinder'
