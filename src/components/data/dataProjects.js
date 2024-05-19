@@ -9,6 +9,15 @@ export const dataProjects = [
         codeLink: ''
     },
     {
+        id:'jobinderAppROR',
+        title: 'Jobinder',
+        shortDescription: 'Job search app with React',
+        description: 'This web application is designed to help users find job opportunities based on their preferences. It is built with React.js, and is deployed on GitHub Pages. The application is designed to be responsive and user-friendly, providing a seamless experience for job seekers. ',
+        url: 'http://18.222.55.217',
+        imageURL:'http://18.222.55.217/logo.png',
+        codeLink: 'https://github.com/ROR2022/jobinder'
+    },
+    {
         id: 'loginAppROR',
         title: 'LoginApp',
         shortDescription: 'Basic login app with MERN',
