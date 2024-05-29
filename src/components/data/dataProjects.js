@@ -9,6 +9,24 @@ export const dataProjects = [
         codeLink: ''
     },
     {
+        id: 'clientChismografo',
+        title: 'Chismografo Client',
+        shortDescription: 'PWA with Next.js and Vercel',
+        description: 'The Progressive Web Application (PWA) is designed to provide users with a platform to share their secrets and read those of others. It is built with Next.js and deployed on Vercel. The application is designed to be responsive and user-friendly, providing a seamless experience for users.',
+        url: 'https://clientchismografo.vercel.app/',
+        imageURL:'https://clientchismografo.vercel.app/icon-512x512.png',
+        codeLink: 'https://github.com/ROR2022/clientchismografo'
+    },
+    {
+        id: 'serverChismografo',
+        title: 'Chismografo Server',
+        shortDescription: 'API with Nest.js and Railway',
+        description: 'The API is designed to handle the backend functionality of the Chismografo application. It is built with Nest.js and deployed on Railway. The API is designed to be scalable and efficient, providing a seamless experience for users.',
+        url: 'https://serverchismografo-production.up.railway.app/',
+        imageURL:'https://clientchismografo.vercel.app/apiLogo.png',
+        codeLink: 'https://github.com/ROR2022/serverchismografo'
+    },
+    {
         id:'jobinderAppROR',
         title: 'Jobinder',
         shortDescription: 'Job search app with React',
