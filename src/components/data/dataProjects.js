@@ -1,3 +1,18 @@
+export const dataProblemSolution = [
+    {
+        id: 'hackerrankBeautiful3Set',
+        title: 'HackerRank Beautiful 3 Set Problem Solution',
+        shortDescription: 'Beautiful 3 Set Problem Solution',
+        description: `Function in JavaScript that returns the combination of valid triples given a number n. This combination should satisfy:
+                        Each of its triples (x,y,z) satisfies x+y+z=n.
+                        The set of x values are distinct, the set of y values are distinct, and the set of z values are distinct.
+                        The cardinality k is the length of the combination of triples that meets these conditions.`,
+        url:'https://docs.google.com/document/d/1spjKUK2LGp1j6SwscvVF-Rdu8jR3CxWVX7SOWx57eD8/edit?usp=sharing',
+        imageURL:'https://prodigy-wd-05-git-main-ror2022s-projects.vercel.app/rorCodePNG_1000x800.png',
+        codeLink: 'https://codepen.io/Ramiro-Ocampo-Rodriguez/pen/poXzqLP'
+    }
+]
+
 export const dataProjects = [
     {
         id: 'portalMinisoloveMX',
