@@ -6,7 +6,7 @@ const RorPortfolio = () => {
   return (
     <div>
       <h2 className='text-center my-3 alert alert-success mx-5 fs-1'>Problem Solution</h2>
-      <div className='d-flex flex-wrap justify-content-between align-items-center mx-3 my-3 gap-3'>
+      <div className='d-flex flex-wrap justify-content-center align-items-center mx-3 my-3 gap-3'>
         {dataProblemSolution.map((problem) => 
             <ProjectCard key={problem.id} project={problem} />
         )}
