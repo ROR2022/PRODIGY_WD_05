@@ -44,7 +44,7 @@ export const dataProjects = [
     {
         id: 'serverCornerStore',
         title: 'Corner Store Server',
-        shortDescription: 'API with',
+        shortDescription: 'Basic Prototype API with Nest.js',
         description: 'The Corner Store API is designed to handle the backend functionality of the Corner Store application. It is built with Nest.js and deployed on Railway. The API is designed to be scalable and efficient, providing a seamless experience for users.',
         url: 'https://servercornerstore-production.up.railway.app/',
         imageURL:'https://clientcornerstore.vercel.app/logoBusinessOwner.png',
