@@ -10,6 +10,15 @@ export const dataProblemSolution = [
         url:'https://docs.google.com/document/d/1spjKUK2LGp1j6SwscvVF-Rdu8jR3CxWVX7SOWx57eD8/edit?usp=sharing',
         imageURL:'https://prodigy-wd-05-git-main-ror2022s-projects.vercel.app/rorCodePNG_1000x800.png',
         codeLink: 'https://codepen.io/Ramiro-Ocampo-Rodriguez/pen/poXzqLP'
+    },
+    {
+        id: 'hackerRankChallenges',
+        title: 'HackerRank Challenges',
+        shortDescription: 'HackerRank Challenges Solutions in JavaScript',
+        description: `This repository contains the solutions to the challenges I have completed on HackerRank. The solutions are written in JavaScript and are designed to be efficient and easy to understand. The challenges cover a wide range of topics, including algorithms, data structures, and problem-solving.`,
+        url:'https://github.com/ROR2022/hackerRankChallenges',
+        imageURL:'https://prodigy-wd-05-git-main-ror2022s-projects.vercel.app/rorCodePNG_1000x800.png',
+        codeLink: 'https://github.com/ROR2022/hackerRankChallenges'
     }
 ]
 
@@ -22,6 +31,24 @@ export const dataProjects = [
         url: 'https://minisolove.miniso.com.mx/',
         imageURL:'https://minisomx.vtexassets.com/assets/vtex.file-manager-graphql/images/d36df983-5360-4714-bfe0-688b9b588883___9c6a0ca6364ac4ed17fc92e3188ac1ba.png',
         codeLink: ''
+    },
+    {
+        id:'clientCornerStore',
+        title: 'Corner Store Client',
+        shortDescription: 'Basic Prototype PWA with Next.js',
+        description: 'Corner Store App is a progressive web application (PWA) developed using Next.js and Nest.js, designed to serve small businesses or medium-sized corporations managing multiple branches, inventories, employees, and sales. It leverages AWS S3 for secure image storage, MongoDB Atlas for flexible data management, and uses JWT and bcrypt for secure user authentication and authorization. With an intuitive UI and responsive design, the app ensures optimal performance through server-side rendering and static site generation. The main goal is to provide a scalable, functional, and secure platform that can adapt to the evolving needs of businesses, enhancing user experience and operational efficiency.',
+        url: 'https://clientcornerstore.vercel.app/',
+        imageURL:'https://clientcornerstore.vercel.app/logoShop.png',
+        codeLink: 'https://github.com/ROR2022/clientcornerstore'
+    },
+    {
+        id: 'serverCornerStore',
+        title: 'Corner Store Server',
+        shortDescription: 'API with',
+        description: 'The Corner Store API is designed to handle the backend functionality of the Corner Store application. It is built with Nest.js and deployed on Railway. The API is designed to be scalable and efficient, providing a seamless experience for users.',
+        url: 'https://servercornerstore-production.up.railway.app/',
+        imageURL:'https://clientcornerstore.vercel.app/logoBusinessOwner.png',
+        codeLink: 'https://github.com/ROR2022/servercornerstore'
     },
     {
         id: 'clientChismografo',
