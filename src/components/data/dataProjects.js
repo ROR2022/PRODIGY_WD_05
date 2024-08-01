@@ -145,6 +145,13 @@ export const dataProjects = [
 //https://prodigy-wd-05-e8rxmdoec-ror2022s-projects.vercel.app/rorAWS.jpg
 export const dataCertifications = [
     {
+        id: 'hackerRankFrontEnd',
+        title: 'Frontend Developer (React)',
+        shortDescription: 'HackerRank Frontend Developer Certificate of Accomplishment',
+        description: 'This certification validates the knowledge and skills required to effectively develop web applications using React.js.',
+        imageURL:'https://prodigy-wd-05-git-main-ror2022s-projects.vercel.app/frontend_developer_react certificate.pdf',
+    },
+    {
         id: 'rorProdigy',
         title: 'Prodigy',
         shortDescription: 'Web Development',
