@@ -12,6 +12,7 @@ import { FaGithub } from "react-icons/fa6";
 import { BsStopwatch } from "react-icons/bs";
 import { RiGalleryView2 } from "react-icons/ri";
 import { GiTicTacToe } from "react-icons/gi";
+import { SiHackerrank } from "react-icons/si";
 import PropTypes from "prop-types";
 
 const TitleDropdown = ({isOffcanvas}) => {
@@ -117,6 +118,12 @@ const BasicNav = ({ isOffcanvas, handleCloseOffcanvas }) => {
           <div className="d-flex justify-content-start align-items-center">
           <FaCode style={{ width: "50px", marginLeft:'-10px', marginRight:'-5px' }} />
           <span>Code</span>
+          </div>
+        </NavDropdown.Item>
+        <NavDropdown.Item href="https://www.hackerrank.com/profile/rami_ror279">
+          <div className="d-flex justify-content-start align-items-center">
+            <SiHackerrank style={{ width: "50px", marginLeft:'-10px', marginRight:'-5px' }} className="" />
+          <span>HackerRank</span>
           </div>
         </NavDropdown.Item>
         <NavDropdown.Divider />
