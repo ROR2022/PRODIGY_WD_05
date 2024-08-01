@@ -149,7 +149,7 @@ export const dataCertifications = [
         title: 'Frontend Developer (React)',
         shortDescription: 'HackerRank Frontend Developer Certificate of Accomplishment',
         description: 'This certification validates the knowledge and skills required to effectively develop web applications using React.js.',
-        imageURL:'https://prodigy-wd-05-git-main-ror2022s-projects.vercel.app/frontend_developer_react certificate.pdf',
+        imageURL:'https://prodigy-wd-05-git-main-ror2022s-projects.vercel.app/rorHackerRank1.png',
     },
     {
         id: 'rorProdigy',
