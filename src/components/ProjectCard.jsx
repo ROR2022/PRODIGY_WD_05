@@ -17,7 +17,7 @@ const ProjectCard = ({project, isCert}) => {
         window.open(imageURL, '_blank');
     }
   return (
-    <Card style={{ width: isCert?'36rem':'18rem' }} className='bg-warning bg-opacity-10'>
+    <Card style={{ width: isCert?'36rem':'18rem' }} className='bg-info bg-opacity-50'>
         {showModal && <ModalCard project={project} showModal={showModal} setShowModal={setShowModal} isCert={isCert}/>}
       <Card.Img variant="top" src={imageURL} style={{height:'400px', cursor:'pointer'}}   className='px-2 pt-2' onClick={handleModal}/>
       <Card.Body>
@@ -33,11 +33,11 @@ const ProjectCard = ({project, isCert}) => {
         </Card.Text>
         
         {!isCert &&
-          <Link className='btn btn-outline-success' to={url}>GO THERE</Link>
+          <Link className='btn btn-primary' to={url}>GO THERE</Link>
         }
         {
           isCert &&
-          <button className='btn btn-outline-success' onClick={handleShowCert}>VIEW CERTIFICATE</button>
+          <button className='btn btn-primary' onClick={handleShowCert}>VIEW CERTIFICATE</button>
         }
         
       </Card.Body>
